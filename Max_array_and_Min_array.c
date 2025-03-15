@@ -7,7 +7,7 @@ void enter_num(int array[]) {
     for (int i = 0; i < N; i++) {
         printf("Enter number %d > ", i + 1);
         if (scanf("%d", &array[i]) != 1) {
-            printf("Detect non-interger. Exiting program\n");
+            printf("Detect non-integer. Exiting program\n");
             exit(1);
         }
     }

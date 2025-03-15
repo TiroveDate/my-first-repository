@@ -4,7 +4,7 @@ int func(int a, int b);
 
 int main(void) {
     int a, b, c;
-    printf("Please insert intergers.\n");
+    printf("Please insert integers.\n");
     printf("number1:");
     scanf("%d", &a);
     printf("number2:");

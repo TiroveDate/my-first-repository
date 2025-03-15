@@ -4,7 +4,7 @@
 
 int main() {
     int dec = 0;
-    printf("Please enter an interger>");
+    printf("Please enter an integer>");
     scanf("%d", &dec);
     int bit[256];
     int i = 0;

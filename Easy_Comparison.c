@@ -3,7 +3,7 @@
 
 int main() {
     int a, b, c;
-    printf("Please enter three intergers\n");
+    printf("Please enter three integers\n");
     printf("1>");
     scanf("%d", &a);
     printf("2>");
@@ -11,12 +11,12 @@ int main() {
     printf("3>");
     scanf("%d", &c);
     if(a == b == c) {
-        printf("All three intergers are equal");
+        printf("All three integers are equal");
     }
     if(a == b || b == c || c == a) {
-        printf("The two intergers are equal");
+        printf("The two integers are equal");
     }
     else {
-        printf("All three intergers are different");
+        printf("All three integers are different");
     }
 }

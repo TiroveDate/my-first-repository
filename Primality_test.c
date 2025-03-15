@@ -24,7 +24,7 @@ int main(void) {
     printf("Enter the number > ");
 
     if (scanf("%d", &num) != 1) {
-        printf("Detect non-interger. Program exiting.\n");
+        printf("Detect non-integer. Program exiting.\n");
         exit(1);
     } 
     primality_test(num);

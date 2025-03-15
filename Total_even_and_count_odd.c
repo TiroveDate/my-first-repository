@@ -19,7 +19,7 @@ int main(void) {
 
     printf("Enter number of arrays > ");
     if (scanf("%d", &num) != 1) {
-        printf("Error : Do not enter non-interger. Exiting Program.\n");
+        printf("Error : Do not enter non-integer. Exiting Program.\n");
         exit(1);
     } else if (num == 0) {
         printf("Error : Please enter number more than 0. Exiting Program.\n");
@@ -31,7 +31,7 @@ int main(void) {
     for (int i = 0; i < num; i++) {
         printf("Number %2d : ", i + 1);
         if (scanf("%d", &arr[i]) != 1) {
-            printf("Error : Do not enter non-interger. Exiting Program.\n");
+            printf("Error : Do not enter non-integer. Exiting Program.\n");
             exit(1);
         }
     }

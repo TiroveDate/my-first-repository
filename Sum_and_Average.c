@@ -7,7 +7,7 @@ int main() {
     int time = 0;
     do {
         time++;
-        printf("interger%d>", time);
+        printf("integer%d>", time);
         scanf("%d", &a);
         Sum = Sum + a;
     } while (a != 0);
